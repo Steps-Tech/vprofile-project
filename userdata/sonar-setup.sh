@@ -1,3 +1,5 @@
+#OS : Ubuntu22.04
+#Port : 80
 #!/bin/bash
 cp /etc/sysctl.conf /root/sysctl.conf_backup
 cat <<EOT> /etc/sysctl.conf
