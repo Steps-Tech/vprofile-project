@@ -1,5 +1,6 @@
 #!/bin/bash
 yum install java-1.8.0-openjdk.x86_64 wget -y   
+dnf -y install java-17-openjdk java-17-openjdk-devel
 mkdir -p /opt/nexus/   
 mkdir -p /tmp/nexus/                           
 cd /tmp/nexus/
