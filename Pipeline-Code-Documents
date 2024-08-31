@@ -3,6 +3,9 @@
 #Jenkins Pipeline Document: 
    https://www.jenkins.io/doc/book/pipeline/
 
+#Jenkins Environment Variables
+   https://wiki.jenkins.io/JENKINS/Building+a+software+project#Buildingasoftwareproject-belowJenkinsSetEnvironmentVariables
+
 #Sonar Scanner Documents : 
    https://www.jenkins.io/doc/pipeline/steps/sonar/
 
