@@ -69,7 +69,7 @@ pipeline {
                 nexusArtifactUploader(
                 nexusVersion: 'nexus3',
                 protocol: 'http',
-                nexusUrl: '18.119.141.232:8081', // Do not use http here
+                nexusUrl: '18.119.141.232:8081', // Do not use http here and we also use Private Ip of Nexus Server
                 groupId: 'Test', // this is mendatory and value can be optional
                 version: "${env.BUILD_ID}-${env.BUILD_TIMESTAMP}", //Enable  BUILD_TIMESTAMP from System
                 repository: 'vproject',
